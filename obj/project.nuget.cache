@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kXFDkp7bOEkcLbKuEaSvazgpMQ11IB77pfVtECavBmtDwmmpT/lziTUohsXZfhIlxbhwv3+dYXthHp6W+Obdsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\BankSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angela Egerega\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Angela Egerega\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Angela Egerega\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Angela Egerega\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

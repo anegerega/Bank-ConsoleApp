@@ -1,0 +1,11 @@
+C:\Users\Angela Egerega\Desktop\BankSystem\bin\Debug\netcoreapp3.0\BankSystem.exe
+C:\Users\Angela Egerega\Desktop\BankSystem\bin\Debug\netcoreapp3.0\BankSystem.deps.json
+C:\Users\Angela Egerega\Desktop\BankSystem\bin\Debug\netcoreapp3.0\BankSystem.runtimeconfig.json
+C:\Users\Angela Egerega\Desktop\BankSystem\bin\Debug\netcoreapp3.0\BankSystem.runtimeconfig.dev.json
+C:\Users\Angela Egerega\Desktop\BankSystem\bin\Debug\netcoreapp3.0\BankSystem.dll
+C:\Users\Angela Egerega\Desktop\BankSystem\bin\Debug\netcoreapp3.0\BankSystem.pdb
+C:\Users\Angela Egerega\Desktop\BankSystem\obj\Debug\netcoreapp3.0\BankSystem.csprojAssemblyReference.cache
+C:\Users\Angela Egerega\Desktop\BankSystem\obj\Debug\netcoreapp3.0\BankSystem.AssemblyInfoInputs.cache
+C:\Users\Angela Egerega\Desktop\BankSystem\obj\Debug\netcoreapp3.0\BankSystem.AssemblyInfo.cs
+C:\Users\Angela Egerega\Desktop\BankSystem\obj\Debug\netcoreapp3.0\BankSystem.dll
+C:\Users\Angela Egerega\Desktop\BankSystem\obj\Debug\netcoreapp3.0\BankSystem.pdb
