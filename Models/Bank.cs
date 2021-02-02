@@ -6,5 +6,6 @@ namespace BankSystem.Models
 {
     class Bank
     {
+        public List<Customer> BankCustomer { get; set; }
     }
 }
