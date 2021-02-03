@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Bank-ConsoleApp
+namespace BankSystem
 {
     class Program
     {
@@ -10,8 +10,9 @@ namespace Bank-ConsoleApp
 
         static void Main(string[] args)
         {
-            
-          Begin:  Console.WriteLine("<<<<<<<<<<<<<<<< WELCOME TO PRESTIGE BANK >>>>>>>>>>>>>");
+           
+        
+            Console.WriteLine("<<<<<<<<<<<<<<<< WELCOME TO PRESTIGE BANK >>>>>>>>>>>>>");
             Console.WriteLine("How may we be of help to you today?");
             Console.WriteLine("1. Open an account");
             Console.WriteLine("2. Login to your account");
@@ -22,6 +23,7 @@ namespace Bank-ConsoleApp
             Console.WriteLine("7. Generate your account statement");
             Console.WriteLine("8. Exit");
 
+       
             string choice = Console.ReadLine();
 
             switch (choice)
@@ -33,25 +35,10 @@ namespace Bank-ConsoleApp
                     LoginAccount();
                     break;
                 case "3":
-                    Deposit();
-                    break;
-                case "4":
-                    CheckBalance();
-                    break;
-                case "5":
-                    TransferFunds();
-                    break;
-                case "6":
-                    Withdraw();
-                    break;
-                case "7":
-                    GenerateStatement();
-                    break;
-                case "8":
                     Console.WriteLine("Goodbye");
                     break;
             }
-            goto Begin;
+            
         }
         public static void CreateAccount()
         {
@@ -77,7 +64,6 @@ namespace Bank-ConsoleApp
                 lastName = LN,
                 emailAddress = EA,
                 birthYear = BY,
-                accountType = AT,
                 accountNumber = Customer.GenerateAccountNum()               
             };
             Console.WriteLine("Account Opening Suucessful!");
@@ -86,7 +72,6 @@ namespace Bank-ConsoleApp
             Console.WriteLine("Last Name: " + customer.lastName);
             Console.WriteLine("Email Address: " + customer.emailAddress);
             Console.WriteLine("Year of Birth: " + customer.birthYear);
-            Console.WriteLine("Account Type: " + customer.accountType);
             Console.WriteLine("Account Number: " + customer.accountNumber);
             Console.WriteLine("Date of creation: " + DateTime.Now);
             
@@ -108,6 +93,10 @@ namespace Bank-ConsoleApp
                     Console.WriteLine("Login Successful!");
                 }
             }
+        }
+        public static void Begin()
+        {
+            while(choice != )
         }
     }
 }

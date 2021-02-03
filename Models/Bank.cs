@@ -1,12 +1,13 @@
-﻿using System;
+﻿using BankSystem.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bank-ConsoleApp
+namespace BankSystem
 {
     class Bank
     {
         public List<Customer> BankCustomer { get; set; }
-        public List<account> AccountTypes { get; set; }
+       // public List<account> AccountTypes { get; set; }
     }
 }
