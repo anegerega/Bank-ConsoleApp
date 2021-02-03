@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BankSystem.Models
+namespace Bank-ConsoleApp
 {
     class Bank
     {

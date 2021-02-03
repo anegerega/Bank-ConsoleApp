@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\BankSystem.csproj",
-      "projectName": "BankSystem",
-      "projectPath": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\BankSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj",
+      "projectName": "Bank-ConsoleApp",
+      "projectPath": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Angela Egerega\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",

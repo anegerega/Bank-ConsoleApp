@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using BankSystem.Models;
+using Bank-ConsoleApp.Models;
 
-namespace BankSystem.Operations
+namespace Bank-ConsoleApp.Operations
 {
     class Activities
     {

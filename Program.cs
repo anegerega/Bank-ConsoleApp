@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace BankSystem
+namespace Bank-ConsoleApp
 {
     class Program
     {
