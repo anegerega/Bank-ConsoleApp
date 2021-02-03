@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using BankSystem.Models;
 
 namespace BankSystem.Operations
 {
@@ -12,7 +13,19 @@ namespace BankSystem.Operations
         }
         public static void CheckBalance()
         {
-
+            var customer = new Customer();
+            try
+            {
+                if (customer.balance > 0)
+                {
+                    var newbalance = customer.balance;
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
         public static void TransferFunds()
         {

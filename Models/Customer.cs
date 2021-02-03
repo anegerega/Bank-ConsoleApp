@@ -14,6 +14,7 @@ namespace BankSystem.Models
         public DateTime dateCreated { get; set; } 
         public int accountNumber { get; set; } = GenerateAccountNum();
         public List<Customer> Customers { get; set; }
+        public decimal balance { get; set; }
 
         public static int GenerateAccountNum()
         {
