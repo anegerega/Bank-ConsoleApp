@@ -10,7 +10,7 @@ namespace BankSystem.Models
         public string lastName { get; set; }
         public string emailAddress { get; set; }
         public int birthYear { get; set; }
-        public enum accountType { Savings, Current }
+        public enum accountType { Savings, Current}
         public DateTime dateCreated { get; set; } 
         public int accountNumber { get; set; } = GenerateAccountNum();
         public List<Customer> Customers { get; set; }
@@ -21,7 +21,6 @@ namespace BankSystem.Models
             Random num = new Random();
             int AcctNum = num.Next(100001, 199999);
             return AcctNum;
-        }
-        
+        }        
     }
 }

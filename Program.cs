@@ -10,8 +10,7 @@ namespace BankSystem
 
         static void Main(string[] args)
         {
-           
-        
+                  
             Console.WriteLine("<<<<<<<<<<<<<<<< WELCOME TO PRESTIGE BANK >>>>>>>>>>>>>");
             Console.WriteLine("How may we be of help to you today?");
             Console.WriteLine("1. Open an account");
@@ -22,8 +21,7 @@ namespace BankSystem
             Console.WriteLine("6. Withdraw money from account");
             Console.WriteLine("7. Generate your account statement");
             Console.WriteLine("8. Exit");
-
-       
+      
             string choice = Console.ReadLine();
 
             switch (choice)

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Bank-ConsoleApp.Models;
+using BankSystem.Models;
 
-namespace Bank-ConsoleApp.Operations
+namespace BankSystem.Operations
 {
     class Activities
     {
@@ -21,14 +21,39 @@ namespace Bank-ConsoleApp.Operations
                     var newbalance = customer.balance;
                     
                 }
+                else
+                {
+                    Console.WriteLine("Your account is empty");
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
         }
-        public static void TransferFunds()
+        public static void TransferFunds(Customer A, Customer B)
         {
+            var cus1 = new Customer();
+            var cus2 = new Customer();
+            Console.WriteLine("Enter Sender's account number: ");
+            var SenderNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Recipient's account number: ");
+            var ReceiverNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Amount: ");
+            var Amt = Convert.ToInt32(Console.ReadLine());
+
+            try
+            {
+                if(A.balance > B.balance)
+                {
+                    A.balance = A.balance - Amt;
+                }
+               
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
 
         }
         public static void Withdraw()
