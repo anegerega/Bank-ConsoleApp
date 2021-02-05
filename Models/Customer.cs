@@ -10,10 +10,10 @@ namespace BankSystem.Models
         public string lastName { get; set; }
         public string emailAddress { get; set; }
         public int birthYear { get; set; }
-        public enum accountType { Savings, Current}
-        public DateTime dateCreated { get; set; } 
+        public string accountType { get; set; }
+        public DateTime dateCreated { get; set; }
         public int accountNumber { get; set; } = GenerateAccountNum();
-        public List<Customer> Customers { get; set; }
+        //public List<Customer> Customers { get; set; }
         public decimal balance { get; set; }
 
         public static int GenerateAccountNum()
