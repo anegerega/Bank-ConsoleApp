@@ -117,7 +117,9 @@ namespace BankSystem.Operations
             }
         }
         public static void TransferFunds(Customer A, Customer B, int Amt)
-        {            
+        {   
+            //Login 
+
             Console.WriteLine("Enter Sender's account number: ");
             var SenderNum = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Recipient's account number: ");
@@ -127,11 +129,12 @@ namespace BankSystem.Operations
 
             try
             {
-                if(A.balance > B.balance || A.balance == B.balance)
+                if(A.balance > Amt || A.balance == Amt)
                 {
                     A.balance = A.balance - Amt;
+                    B.balance = B.balance + Amt;
                 }
-                if(A.balance < B.balance)
+                if(A.balance < Amt)
                 {
                     Console.WriteLine("Insufficient Funds");
                 }
