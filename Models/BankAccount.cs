@@ -10,7 +10,17 @@ namespace BankSystem
     {
         public string AccountNumber { get; set; }
         public string AccountOwner { get; set; }
-        public decimal Balance { get; }
+        public decimal Balance{
+            get
+            {
+                decimal balance = 0;
+                foreach (var item in AllTransactions)
+                {
+                    balance = balance + item.Amount;
+                }
+                return balance;
+            }
+         }
         private static int AccountNumberSeed = 1234567890;
         public List<Transaction> AllTransactions = new List<Transaction>();
         public BankAccount(string name, decimal initialBalance)
