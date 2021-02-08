@@ -23,10 +23,10 @@ namespace BankSystem
          }
         private static int AccountNumberSeed = 1234567890;
         public List<Transaction> AllTransactions = new List<Transaction>();
-        public BankAccount(string name, decimal initialBalance)
+        public BankAccount(string name)
         {
             AccountOwner = name;
-            Balance = initialBalance;
+           // Balance = initialBalance;
             AccountNumber = AccountNumberSeed.ToString();
             AccountNumberSeed++;
 
