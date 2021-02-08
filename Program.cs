@@ -10,8 +10,10 @@ namespace BankSystem
         static void Main(string[] args)
         {
             Console.WriteLine("<<<<<<<<<<<<<<<< WELCOME TO PRESTIGE BANK >>>>>>>>>>>>>");
-            Console.WriteLine("How may we be of help to you today?");
-            Activities.Menu();
+            var newAccount = new BankAccount("Angela", 10000);
+
+            Console.WriteLine($"An Account with number {newAccount.AccountNumber} has been successfully created for {newAccount.AccountOwner}");
+            
         }        
     }
 }

@@ -190,7 +190,7 @@ namespace BankSystem.Operations
                     Activities.Deposit();
                     break;
                 case "4":
-                    Activities.CheckBalance();
+                    ;
                     break;
                 case "5":
                     // Activities.TransferFunds(Customer A, Customer B, int Amt);
