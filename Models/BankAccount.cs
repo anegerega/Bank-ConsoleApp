@@ -33,7 +33,12 @@ namespace BankSystem
         }
         public void Deposit(decimal amount, DateTime date, string note)
         {
-
+            if(amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
+                var deposit = new Transaction(amount, date, note);
+                AllTransactions.Add(deposit);
+            }
         }
         public void Withdraw(decimal amount, DateTime date, string note)
         {
