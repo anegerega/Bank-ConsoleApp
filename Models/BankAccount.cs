@@ -42,7 +42,16 @@ namespace BankSystem
         }
         public void Withdraw(decimal amount, DateTime date, string note)
         {
-
+            if(amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount), "You cannot withdraw a negative amount");
+            }
+            if(Balance - amount < 0)
+            {
+                throw new InvalidOperationException("You do not have sufficient funds for withdrawal");
+            }
+            var withdraw = new Transaction(-amount, date, note);
+            AllTransactions.Add(withdraw);
         }
     }
 }
