@@ -11,9 +11,9 @@ namespace BankSystem
         {
             Console.WriteLine("<<<<<<<<<<<<<<<< WELCOME TO PRESTIGE BANK >>>>>>>>>>>>>");
             var newAccount = new BankAccount("Angela");
-
-            Console.WriteLine($"An Account with number {newAccount.AccountNumber} has been successfully created for {newAccount.AccountOwner}");            
+            Console.WriteLine($"An Account with number {newAccount.AccountNumber} has been successfully created for {newAccount.AccountOwner}");
         }
+        
     }
 }
 
