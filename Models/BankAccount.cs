@@ -23,12 +23,12 @@ namespace BankSystem
          }
         private static int AccountNumberSeed = 1234567890;
         public List<Transaction> AllTransactions = new List<Transaction>();
-        public BankAccount(string name)
+        public BankAccount(string name, decimal initialBalance)
         {
             AccountOwner = name;
-           // Balance = initialBalance;
             AccountNumber = AccountNumberSeed.ToString();
             AccountNumberSeed++;
+            Deposit(initialBalance, DateTime.Now, "Initial balance");
 
         }
         public void Deposit(decimal amount, DateTime date, string note)
