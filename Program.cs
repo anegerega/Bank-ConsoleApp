@@ -15,6 +15,8 @@ namespace BankSystem
 
             newAccount.Withdraw(500, DateTime.Now, "Food");
             Console.WriteLine(newAccount.Balance);
+
+            newAccount.Deposit(-350, DateTime.Now, "money");
         }      
     }
 }
