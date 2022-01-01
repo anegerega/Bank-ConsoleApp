@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj": {}
+    "C:\\Users\\angela.egerega\\source\\repos\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj": {
+    "C:\\Users\\angela.egerega\\source\\repos\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\angela.egerega\\source\\repos\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj",
         "projectName": "Bank-ConsoleApp",
-        "projectPath": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Angela Egerega\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angela Egerega\\Desktop\\Bank-ConsoleApp\\obj\\",
+        "projectPath": "C:\\Users\\angela.egerega\\source\\repos\\Bank-ConsoleApp\\Bank-ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\angela.egerega\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angela.egerega\\source\\repos\\Bank-ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Angela Egerega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\angela.egerega\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -72,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

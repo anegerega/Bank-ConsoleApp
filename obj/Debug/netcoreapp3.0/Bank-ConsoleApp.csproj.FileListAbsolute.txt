@@ -11,3 +11,21 @@ C:\Users\Angela Egerega\Desktop\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-Con
 C:\Users\Angela Egerega\Desktop\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.dll
 C:\Users\Angela Egerega\Desktop\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.pdb
 C:\Users\Angela Egerega\Desktop\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.genruntimeconfig.cache
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Bank-ConsoleApp.exe
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Bank-ConsoleApp.deps.json
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Bank-ConsoleApp.runtimeconfig.json
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Bank-ConsoleApp.runtimeconfig.dev.json
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Bank-ConsoleApp.dll
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Bank-ConsoleApp.pdb
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\System.IO.Pipelines.dll
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.AssemblyInfo.cs
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.csproj.CopyComplete
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.dll
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.pdb
+C:\Users\angela.egerega\source\repos\Bank-ConsoleApp\obj\Debug\netcoreapp3.0\Bank-ConsoleApp.genruntimeconfig.cache
