@@ -44,7 +44,7 @@ namespace BankSystem
         {
             if(amount <= 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(amount), "You cannot withdraw a negative amount");
+                Console.WriteLine("You cannot withdraw a negative amount");
             }
             if(Balance - amount < 0)
             {
